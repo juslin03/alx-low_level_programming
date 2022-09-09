@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include <sdtio.h>
+#include <stdio.h>
 
 /**
  * main - This program prints exactly
