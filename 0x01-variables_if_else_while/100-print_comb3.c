@@ -17,7 +17,7 @@ int main(void)
 			if (n1 != n2)
 			{
 				putchar(n1);
-				putchar((n2);
+				putchar(n2);
 				if (n1 != '8' || n2 != '9')
 				{
 					putchar(',');
