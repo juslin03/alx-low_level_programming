@@ -16,4 +16,6 @@ int _putchar(char c);
 /* print x10 alphabet followed a new line */
 void print_alphabet(void);
 
+int _islower(int c);
+
 #endif
