@@ -12,5 +12,6 @@
 
 /* print - _putchar followed by a new line */
 int _putchar(char c);
+void print_alphabet(void);
 
 #endif
