@@ -12,7 +12,7 @@
 
 /* print - _putchar followed by a new line */
 int _putchar(char c);
-
+void print_alphabet(void);
 /* print x10 alphabet followed a new line */
 void print_alphabet_x10(void);
 
