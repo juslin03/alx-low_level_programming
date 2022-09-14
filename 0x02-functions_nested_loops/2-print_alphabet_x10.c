@@ -3,7 +3,7 @@
 /**
  * print_alphabet x10 - print x10 alphabet in lowecase followed a new line
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char letter;
 	int i = 0;
