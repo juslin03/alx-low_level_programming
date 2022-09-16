@@ -2,8 +2,9 @@
 
 /**
  * _isupper - check if param is uppercase
- * @c: input char
- * Return: 1 if true, 0 otherwise
+ * @c: character to check
+ *
+ * Return: 1 if character is uppercase, 0 otherwise
  */
 int _isupper(int c)
 {
