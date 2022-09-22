@@ -9,19 +9,19 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int count1 = 0, count2 = 0;
+	int count = 0, count2 = 0;
 
-	while (*(dest + count1) != '\0')
+	while (*(dest + count) != '\0')
 	{
-		count1++;
+		count++;
 	}
 
 	while (count2 >= 0)
 	{
-		*(dest + count1) = *(dest + count2);
+		*(dest + count) = *(dest + count2);
 		if (*(dest + count2) == '\0')
 			break;
-		count1++;
+		count++;
 		count2++;
 	}
 	return (dest);
