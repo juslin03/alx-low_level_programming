@@ -10,9 +10,9 @@
  */
 int power_calcul(int n, int i)
 {
-	if (c % (n / i) == 0)
+	if (i % (n / i) == 0)
 	{
-		if (c % (n / i) == n)
+		if (i % (n / i) == n)
 			return (i);
 		return (-1);
 	}
