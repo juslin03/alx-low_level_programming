@@ -14,7 +14,8 @@ int power_calcul(int n, int i)
 	{
 		if (i % (n / i) == n)
 			return (i);
-		return (-1);
+		else
+			return (-1);
 	}
 	return (0 + power_calcul(n, i + 1));
 }
